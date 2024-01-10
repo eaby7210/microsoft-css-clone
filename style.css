@@ -1,0 +1,238 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Helvetica, sans-serif, Geneva, Verdana;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+ol {
+  list-style: none;
+}
+h1 {
+  font-weight: 600;
+  font-size: 37px;
+  margin: 0px 0px 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+nav.main-nav {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 76px;
+  margin: 0px 0px 2px 0px;
+  height: 54px;
+}
+nav.main-nav > a {
+  margin: 1px 0px 0px;
+  padding: 16px 6px 16px 10px;
+  height: 54px;
+}
+nav.main-nav > a > img {
+  height: 23px;
+  margin: -3px 0px 0px;
+}
+
+ul.main-menu {
+  display: flex;
+  width: 897px;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+}
+ul.main-menu > a {
+  margin: 1px, 0px, 0px;
+  padding: 16px 8px 10px;
+}
+ul.main-menu > a > li:hover {
+  border-bottom: 2px solid black;
+  /* text-decoration: underline; */
+}
+ul.right-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-end;
+  width: 330px;
+  font-size: 13px;
+}
+ul.right-menu > a {
+  margin: 1px, 0px, 0px;
+  padding: 16px 8px 10px;
+}
+ul.right-menu > a > li:hover {
+  border-bottom: 2px solid black;
+  /* text-decoration: underline; */
+}
+ul.right-menu > a > li > i {
+  margin-left: 2px;
+}
+div.enquire {
+  display: flex;
+  text-align: center;
+  background-color: #0067b8;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 0px;
+  height: 58px;
+  margin: 0px;
+}
+div.enquire > p {
+  font-weight: 500;
+}
+header.showcase {
+  display: flex;
+  background-image: url(/images/office-banner.avif);
+  background-size: cover;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 472px;
+  margin: 0;
+  padding: 0;
+}
+.show-container {
+  width: 100%;
+  padding: 80px;
+}
+.show-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 565px;
+  height: 200px;
+}
+.btn-one {
+  color: #ffffff;
+  background-color: #0067b8;
+  border-radius: 3px;
+  margin: 8px 24px 8px 0px;
+  padding: 10px 12px;
+  font-weight: 600;
+}
+.btn-one:hover {
+  background-color: #0464ae;
+}
+.btn-two {
+  font-weight: 500;
+  padding: 8px 27px 8px 0px;
+}
+.btn-two:hover {
+  text-decoration: underline;
+}
+i.fa-chevron-right:hover {
+  margin-left: 4px;
+  transition: linear;
+}
+section.home-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0px 75px;
+  width: 1350px;
+  height: 376px;
+  flex-wrap: wrap;
+}
+section.home-cards > div {
+  width: 323px;
+  padding: 12px 0px;
+}
+section.home-cards > div > img {
+  width: 100%;
+}
+section.game-pass {
+  display: flex;
+  background-image: url(/images/game.jpeg);
+  background-size: cover;
+  justify-content: left;
+  align-items: center;
+  width: 1350px;
+  height: 472px;
+  margin: 100px auto;
+  padding: 0;
+}
+.game-container {
+  color: #ffffff;
+  width: 100%;
+  padding: 80px;
+}
+.game-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 200px;
+  height: 100px;
+}
+.h1 {
+  margin: 0 auto;
+  width: 1320px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  color: #616161;
+  background-color: #f2f2f2;
+}
+.footer > .links {
+  width: 1370px;
+}
+.footer > .links > .linkSections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px;
+}
+.linkSections > li > h2,
+.fa-earth-americas {
+  font-size: 15px;
+  font-weight: 550;
+}
+ul.linkList {
+  padding: 0px;
+}
+.linkList > a > li {
+  color: #616161;
+  font-size: 11px;
+  padding: 8px 0px;
+}
+section.company {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-bottom: 20px;
+}
+.accessibility {
+  display: flex;
+  color: #000;
+  font-size: 11px;
+  justify-content: space-between;
+}
+.accessibility > li {
+  padding: 0px 10px;
+}
+.fa-earth-americas {
+  color: #616161;
+  margin-right: 2px;
+}
+ul.company-details {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  font-size: 11px;
+}
+h3 {
+  font-size: 29px;
+  margin: 0 0 16px;
+  font-weight: 500;
+}
